@@ -1,0 +1,12 @@
+[package]
+name = "bfileharm"
+version = "0.1.0"
+edition = "2021"
+description = "Harmonize two PLINK bfile datasets by common SNP ID and A1/A2 allele order."
+license = "GPL-2.0-or-later"
+
+[[bin]]
+name = "bfileHarm"
+path = "src/main.rs"
+
+[dependencies]
